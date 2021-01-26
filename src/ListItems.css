@@ -29,3 +29,18 @@
 .list p input:focus{
     outline: none;
 }
+@media (max-width: 500px){
+      .list {
+            width: 70%;
+            background-color: #5f99f5;
+            height: 40px;
+          }
+          .list p input {
+            font-size: 16px;
+          }
+      .list p span {
+            bottom: 15px;
+            font-size: 15px;  
+          }
+    
+}
