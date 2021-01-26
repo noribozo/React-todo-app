@@ -45,3 +45,28 @@ h1{
   font-weight: bolder;
   
 }
+@media (max-width: 500px){
+body{
+  background-color: #0289f5;
+}
+  .App{
+      background-color: #0260ab;
+      }
+  h1{
+    color: #0bdb7a;
+    font-size: 28px;
+  }
+  #to-do-form input {
+      background-color: #1a8a7f;
+      height: 40px;
+      margin-right: 15px;
+      font-size: 18px;
+    }
+#to-do-form button{
+background-color: #08416e;
+width: 40px;
+height: 40px;
+
+}
+
+}
